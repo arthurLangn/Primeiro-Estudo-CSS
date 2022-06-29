@@ -1,7 +1,20 @@
 body {
 	background: url(imagens/fundo.png);
+
 }
 
 .topo {
-	background: url(imagens/capa.png);
+	background-image: url(imagens/capa.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: left top;
+	margin-bottom: -50px;
 }
+
+.links {
+	background: #AAAA9E;
+	margin-right: 458px;
+	height: 5em;
+	text-align: left center;
+}
+
